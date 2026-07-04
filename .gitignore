@@ -1,0 +1,26 @@
+# Environment variables (sensitive data)
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Railway specific
+.railway/
+
+# Bot data (sensitive)
+bot_data/smtp.json
